@@ -3,6 +3,7 @@
 
 ###############################################
 # Compare some folders and report same files. #
+# Version 0.1                                 #
 # Vahid.Maani [at] gmial [dot] com            #
 ###############################################
 
@@ -42,5 +43,3 @@ for keys, values in dir_dict.items():
         dup_keys.append(values)
         print("The following files are identical:")
         print([k for k,v in dir_dict.items() if v == values])
-#        for each_key in [k for k,v in dir_dict.items() if v == values]:
-#            print(each_key)
